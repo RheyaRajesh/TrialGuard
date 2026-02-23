@@ -1,7 +1,11 @@
-# TrialGuard 🛡️💰
+<div align="center">
 
-**TrialGuard** is a SaaS Trial Abuse Detection & Revenue Protection Platform  
+# TrialGuard 🛡️💰
+## Trial Abuse Detection & Revenue Protection Platform
+ 
 Helping SaaS companies maximize trial profitability while minimizing abuse damage.
+
+</div>
 
 It continuously decides for each trial user whether to:  
 **✅ Allow** • **🐢 Throttle** • **⛔ Block** • **🚩 Flag**
@@ -48,4 +52,5 @@ Navigate to `http://localhost:8501` in your browser.
 ## ⚖️License
 
 [MIT](LICENSE)
+
 
