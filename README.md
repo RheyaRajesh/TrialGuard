@@ -1,20 +1,26 @@
-# TrialGuard
+# TrialGuard 🛡️💰
 
-**TrialGuard** is a SaaS Trial Abuse Detection & Revenue Protection Platform designed to optimize trial profitability by balancing abuse risk, infrastructure cost, and conversion likelihood.
+**TrialGuard** is a SaaS Trial Abuse Detection & Revenue Protection Platform  
+Helping SaaS companies maximize trial profitability while minimizing abuse damage.
 
-It allows SaaS companies to continuously decide whether to **Allow**, **Throttle**, **Block**, or **Flag** trial users based on:
--   **Behavioral Fingerprinting**: Tracking non-PII usage patterns.
--   **Resource Drain Detection**: Identifying shared resource exhaustion.
--   **ROI Scoring**: real-time calculation of value vs cost/risk.
+It continuously decides for each trial user whether to:  
+**✅ Allow** • **🐢 Throttle** • **⛔ Block** • **🚩 Flag**
 
-## Features
+Based on smart, privacy-respecting signals:
 
--   **Multi-Tenant Architecture**: Logical separation for multiple customers.
--   **Dashboard**: Real-time admin interface built with Streamlit.
--   **Simulation Engine**: Built-in traffic generator to test detection logic with "Abusive", "Normal", and "High Value" user profiles.
--   **Pure Python Backend**: No external database or heavy dependencies required.
+- 🖐️ **Behavioral Fingerprinting** — non-PII usage pattern tracking  
+- 🔥 **Resource Drain Detection** — spotting shared resource abuse  
+- ⚖️ **ROI Scoring** — real-time value vs. cost & risk calculation  
 
-## Installation
+## ✨ Core Features
+
+- 🏗️ **Multi-Tenant Architecture** — clean logical separation per customer  
+- 📊 **Modern Dashboard** — real-time admin interface (Streamlit)  
+- 🧪 **Simulation Engine** — built-in traffic generator with realistic profiles:  
+  • Normal users • Abusive users • High-value legitimate users  
+- 🐍 **Pure Python Backend** — minimal dependencies, no external database required  
+
+## 🚀 Quick Start
 
 1.  Clone the repository:
     ```bash
@@ -26,23 +32,20 @@ It allows SaaS companies to continuously decide whether to **Allow**, **Throttle
     ```bash
     pip install -r requirements.txt
     ```
-
-## Usage
-
-Run the application locally:
-
-```bash
-streamlit run app.py
-```
+3. Launch the app 🎉 
+    ```bash
+    streamlit run app.py
+    ```
 
 Navigate to `http://localhost:8501` in your browser.
 
-### Key Pages
+### 📌Key Pages
 -   **Overview Dashboard**: Monitoring stats and live decision feed.
 -   **Trial User Analyzer**: Deep dive into specific user scores and reasons.
 -   **Resource Drain Monitor**: Visualizing backend load.
 -   **Tenant Configuration**: Adjusting thresholds and weights.
 
-## License
+## ⚖️License
 
 [MIT](LICENSE)
+
